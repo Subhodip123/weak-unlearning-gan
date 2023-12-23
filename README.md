@@ -6,7 +6,7 @@ This repo contains a PyTorch implementation for the paper [FAST: Feature Aware S
 
 Modern machine unlearning approaches typically assume access to model parameters and architectural details during unlearning, which is not always feasible. In multitude of downstream tasks, these models functionas black-box systems, with inaccessible pre-trained parameters, architectures, and training data. In such scenarios, the possibility of filtering undesired outputs becomes a practical alternative. The primary goal of this study is twofold: first, to elucidate the relationship between filtering and unlearning processes, and second, to formulate a methodology aimed at mitigating the display of undesirable outputs generated from models characterized as black-box systems.  Theoretical analysis in this study demonstrates that, in the context of black-box models, filtering can be seen as a form of weak unlearning. Our proposed Feature Aware Similarity Thresholding(FAST) method effectively suppresses undesired outputs by systematically encoding the representation of unwanted features in the latent space.
 
-[!mechanism](blocking.png)
+![mechanism](blocking.png)
 
 
 The primary objective of filtering is to prevent the display of samples that exhibit specific undesired features. In this context, we explore two distinct unlearning settings:
