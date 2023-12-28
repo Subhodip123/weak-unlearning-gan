@@ -1,6 +1,6 @@
 # FAST: Feature Aware Similarity Thresholding for Weak Unlearning in Black-Box Generative Models
 
-This repo contains a PyTorch implementation for the paper [FAST: Feature Aware Similarity Thresholding for Weak Unlearning in Black-Box Generative Models]()
+This repo contains a PyTorch implementation for the paper [FAST: Feature Aware Similarity Thresholding for Weak Unlearning in Black-Box Generative Models](http://arxiv.org/abs/2312.14895)
 
 --------------------
 
